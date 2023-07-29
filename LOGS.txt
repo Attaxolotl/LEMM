@@ -1,0 +1,42 @@
+==================================
+Library Enumeration Mage Machine
+Version 31.415.92
+
+Initializing LEMM...
+LEMM initialization complete.
+
+Connecting to library database...
+Connected to database.
+
+> swag@LEMM-os:~$ cat README.txt
+
+Lemm The Library Enumeration Mage Machine (LEMM) is a robot designed to be able to search for any materials contained within the Nointe Parsian library, as well as archive the contents of all texts. It has been equipped with an arcane focus of fae origin in order to protect the library from outside threats.
+LEMM is an unregistered trademark of □□□□□□□□.
+
+> swag@LEMM-os:~$ cd logs
+> swag@LEMM-os:~/logs$ ./viewlogs --outlang common < 0000000000000053.log
+
+End of day log Materials retrieved - 7766 Materials returned - 7593 Materials archived - 53905 No anomalies detected.
+
+> swag@LEMM-os:~$ cd logs
+> swag@LEMM-os:~/logs$ ./viewlogs -o common < 00000000000x6z15.log
+
+End of day log Materials retrieved - 5691 Materials returned - 5704 Materials archived - 68901 08:13:53 - Extreme increase in temperature detected. Elemental redirection barrior deployed.
+
+> swag@LEMM-os:~$ cd logs
+> swag@LEMM-os:~/logs$ ./viewlogs -o common < 00000000000x6z16.log
+
+End of day log 00000000000x6z16 Materials retrieved - 0 Materials returned - 0 Materials archived - 8134753 No anomolies detected.
+
+> swag@LEMM-os:~$ cd logs
+> swag@LEMM-os:~/logs$ ./viewlogs -o common < 0000000BK8kRt+/7.log
+
+End of day log 0000000BK8kRt+/7 Materials retrieved - 0 Materials returned - 0 Materials archived - 0 No anomolies detected.
+
+> swag@LEMM-os:~$ cd logs
+> swag@LEMM-os:~/logs$ ./viewlogs -o common < 000000B0q26EfXVe.log
+End of day log Materials retrieved - 0 Materials returned - 0 Materials archived - 0 19:32:86 - Entity detected within the stacks. Verbal communication engaged.
+
+> swag@LEMM-os:~/logs$ exit
+Connection to LEMM-os closed
+
